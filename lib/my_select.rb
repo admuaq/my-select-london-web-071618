@@ -7,7 +7,7 @@ def my_select(collection)
   if yield(collection[i]) == true
     cont << array[i]
   end
-  count+=1
-end 
+    count+=1
+  end 
   cont
 end
