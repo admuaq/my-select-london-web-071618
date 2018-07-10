@@ -5,5 +5,6 @@ def my_select(collection)
   while i < collection.length
     cont << yield(collection[i])
     i+= 1 
-  end 
+  end
+  cont 
 end
