@@ -6,4 +6,5 @@ def my_select(collection)
     cont << yield(collection[i])
     i+= 1 
   end
+  cont
 end
