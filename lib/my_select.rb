@@ -1,7 +1,7 @@
 def my_select(collection)
  # your code here!
  cont = []
-  while i < collection.length
+  if i 
     cont << yield(collection[i])
     i+= 1 
   end
