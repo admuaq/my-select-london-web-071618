@@ -3,4 +3,5 @@ def my_select(collection)
  cont = []
  i = 0 
  while i < collection.length
+  
 end
