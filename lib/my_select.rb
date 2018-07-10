@@ -1,8 +1,8 @@
-def my_select(nums)
+def my_select(collection)
  # your code here!
  cont = []
  i = 0
-  if nums[i]
+  if collection[i] == collection 
     cont << yield(collection[i])
     i+= 1 
   end
